@@ -1,0 +1,7 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "mgmcdermott.vscode-language-babel",
+    "burkeholland.simple-react-snippets"
+  ]
+}
