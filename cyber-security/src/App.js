@@ -1,9 +1,11 @@
 import './index.css';
 import logo from './Images/logo.png';
 import MainCarousel from './Components/MainCarousel'
+import Footer from './Components/footer';
 
 function App() {
   return (
+    <>
     <div style={{backgroundColor: 'lightgray'}}>
       <nav class="navbar navbar-expand-lg navbar-light" style={{backgroundColor: '#103d22'}}>
         <a class="navbar-brand" href="#" style={{color: '#FEFEFE'}}>
@@ -23,6 +25,8 @@ function App() {
         <h5 className="center">We use many different resources to create competitive events where students (both beginner and expert) can practice their skills against each other in a variety of environments.</h5>
       </div>
     </div>
+   <Footer></Footer>
+   </>
   );
 }
 
