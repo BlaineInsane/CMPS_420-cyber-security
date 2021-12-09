@@ -22,7 +22,7 @@ function App() {
         <h1 className="center text-center" style={{paddingTop: 20}}>EVENTS Workshops</h1>
         <h5 className="center">By leveraging the community of SELU graduates and through faculty networking, we offer focused, pinpoint workshops on specific cybersecurity topics to assist students in applying security to their particular interests.</h5>
         <h1 className="center text-center" style={{paddingTop: 20}}>EVENTS Competitions</h1>
-        <h5 className="center">We use many different resources to create competitive events where students (both beginner and expert) can practice their skills against each other in a variety of environments.</h5>
+        <h5 className="center" style={{paddingBottom: 20}}>We use many different resources to create competitive events where students (both beginner and expert) can practice their skills against each other in a variety of environments.</h5>
       </div>
     </div>
    <Footer></Footer>
