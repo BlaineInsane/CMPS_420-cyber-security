@@ -1,8 +1,11 @@
+import 'react-bootstrap';
+import './index.css';
 import bottomlessPit from './Images/bottomlessPit.jpg';
 import logo from './Images/logo.png';
 import serverBros from './Images/serverBros.jpg';
-import 'react-bootstrap';
-import './index.css';
+import ImageSlider from './ImageSlider';
+import { SliderData } from './SliderData';
+
 
 function App() {
   return (
@@ -35,10 +38,16 @@ function App() {
   </div>
 </nav>
 
-  <div>
-<img src={serverBros} className="image-carousel"/>
+<img src={serverBros} className="center"/>
 
-  </div>
+<ImageSlider />
+{SliderData.map((slide, index) =>{
+      return (
+        <img src={slide.image} alt='cybersecurity-images'></img>
+      )
+})}
+
+
 </div>
   );
 }
