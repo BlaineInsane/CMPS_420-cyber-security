@@ -5,9 +5,9 @@ export default class ContactInfo extends Component {
     render() {
 
         return (
-            <div class="hero-unit" style={{backgroundColor: "green", textAlign: "center"}}>
+            <div class="hero-unit" style={{backgroundColor: "#103d22", textAlign: "center"}}>
                 <h1 style={{color:"white"}}>Contact us!</h1>
-                <p style={{color: "green"}}>Tagline</p>
+                <p style={{color: "#103d22"}}>Tagline</p>
                 <p>
                     <a class="btn btn-primary btn-large">
                     https://discord.gg/jQhJhY4g

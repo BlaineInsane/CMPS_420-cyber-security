@@ -17,8 +17,8 @@ function App() {
       </nav>
       <MainCarousel />
 
-      <div class="hero-unit" style={{backgroundColor: "green", textAlign: "center"}}>
-        <h1 className="center text-center" style={{paddingTop: 20}}>Where SELU Students go to Advance their skills in Information Security.</h1>
+      <div class="hero-unit" style={{backgroundColor: "#103d22", textAlign: "center"}}>
+        <h1 className="center text-center" style={{paddingTop: 20, color:"white"}}>Where SELU Students go to Advance their skills in Information Security.</h1>
       </div>
 
       <Container>
