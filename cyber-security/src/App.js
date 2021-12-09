@@ -1,4 +1,3 @@
-import 'react-bootstrap';
 import './index.css';
 import bottomlessPit from './Images/bottomlessPit.jpg';
 import logo from './Images/logo.png';
@@ -6,7 +5,6 @@ import serverBros from './Images/serverBros.jpg';
 import ImageSlider from './ImageSlider';
 import { SliderData } from './SliderData';
 import MainCarousel from './Components/MainCarousel'
-import { Carousel } from 'react-bootstrap';
 
 function App() {
   return (
